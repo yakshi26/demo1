@@ -1,1 +1,74 @@
 this is frontend code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Welcome to My Sample HTML Page</h1>
+    
+    <!-- Paragraph -->
+    <p>This is a simple paragraph demonstrating a basic HTML structure. HTML stands for <strong>HyperText Markup Language</strong>.</p>
+
+    <!-- Link -->
+    <p>Visit <a href="https://www.example.com" target="_blank">Example Website</a> for more information.</p>
+
+    <!-- Image -->
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
+
+    <!-- Unordered List -->
+    <h2>Favorite Foods</h2>
+    <ul>
+        <li>Pizza</li>
+        <li>Sushi</li>
+        <li>Ice Cream</li>
+    </ul>
+
+    <!-- Ordered List -->
+    <h2>Steps to Make Coffee</h2>
+    <ol>
+        <li>Boil water.</li>
+        <li>Add coffee grounds to filter.</li>
+        <li>Pour hot water over the grounds.</li>
+        <li>Enjoy your coffee!</li>
+    </ol>
+
+    <!-- Table -->
+    <h2>Simple Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>32</td>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <h2>Contact Form</h2>
+    <form action="/submit_form" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
